@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin' , sans-serif;
+  box-sizing: border-box;
+}
+                                      /*Start Section-1*/
+.section-1{
+  background-image: url(../img/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.section-1 nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.section-1 .logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.section-1 .logo span{
+  color: #ff0060;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.section-1 nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.section-1 nav ul li a:hover{
+  color: #ff0060;
+  transition: 0.4s;
+}
+.section-1 #btnSubscribe{
+  background-color: #ff0060;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+.section-1 #btnSubscribe:hover{
+  transform: scale(1.2);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.content h4{
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #cccccc;
+}
+.content h1{
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 75px;
+}
+.content h3{
+  color: white;
+  font-size: 22px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+.content span{
+  font-size: 30px;
+  color: #fd0052;
+}
+.section-1 .content .box-Email form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.section-1 .content .box-Email form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid crimson;
+  outline: none;
+  border-radius: 30px;
+}
+.section-1 .content .box-Email form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: crimson;
+  color: white;
+  box-shadow: 0 0 5px #000, 0 0 5px #858585;
+  top: 6px;
+  right: 6px;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+#btnSubmit:hover{
+  transform: scale(1.03);
+}
+                                          /*End Section-1*/
+
+                                          /*Start Section-2*/
+.section-2{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+.section-2 .main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-2 .main img{
+  height: auto;
+  width: 430px;
+}
+.section-2 .main .about-text{
+  width: 550px;
+}
+.section-2 .main .about-text header h1{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.section-2 .main .about-text header p{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.section-2 .main .about-text header p span{
+  font-size: 30px;
+  color: #ec0028;
+  font-weight: bold;
+}
+.section-2 .main .about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.section-2 .main .about-text button{
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.section-2 .main .about-text button:hover{
+  background-color: transparent;
+  border: 2px solid crimson;
+  cursor: pointer;
+}
+                                          /*End Section-2*/
+
+                                          /*Start Section-3*/
+.section-3{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.section-3 h1{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.section-3 .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.section-3 .box .card{
+  height: 400px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.section-3 .box .card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: crimson;
+}
+
+.section-3 h2{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.section-3 p{
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.section-3 a{
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.section-3 a:hover{
+  background-color: transparent;
+  border: 2px solid crimson;
+  cursor: pointer;
+}
+                                          /*End Section-3*/
+
+                                          /*Start Section-4*/
+.section-4{
+  background-color: #19191a;
+  height: 350px;
+  position: relative;
+}
+.section-4 div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%) ;
+  text-align: center;
+}
+.section-4 h1{
+  color: white;
+}
+.section-4 input{
+  margin-top: 15px;
+  width: 120px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  border: 1px crimson solid;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.section-4 input:hover{
+  background-color: transparent;
+  transition: .4s;
+}
+                                          /*End Section-4*/
+
+                                          /*Start Section-5*/
+.section-5{
+  background-color: #000;
+  height: 350px;
+  position: relative;
+}
+.section-5 div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%) ;
+  text-align: center;
+}
+.section-5 h1{
+  color: white;
+}
+.section-5 p{
+  color: #fcfc;
+  margin-top: 15px;
+  letter-spacing: .1em;
+}
+.section-5 .link{
+  top: 76%;
+  width: 50%;
+}
+.section-5 .link a{
+  text-decoration: none;
+  color: snow;
+}
+.section-5 .link i{
+  padding: 10px;
+  font-size: 25px;
+  border: 1px red solid;
+  border-radius: 100%;
+  background-color: crimson;
+}
+.section-5 .link i:hover{
+  transform: scale(1.3);
+  transition: .4s;
+}
+                                          /*End Section-5*/
