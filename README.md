@@ -9,7 +9,7 @@ Instagram: https://www.instagram.com/qandeeil
 
 GitHub: https://github.com/qandeeil
 
-Linkedin: https://jo.linkedin.com/in/mahmoud-qandeel-b38a6323a
+Linkedin: https://www.linkedin.com/in/qandeeil
 
 Link website Demo:
 https://qandeeil.github.io/Porfhilo
